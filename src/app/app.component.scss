@@ -1,0 +1,74 @@
+$color : #fbf2fb;
+
+.home {
+  padding: 30px 10px;
+  .component {
+    background-color: $color;
+    padding: 20px;
+    border-radius: 5px;
+    .title {
+      font-size: 18px;
+      font-weight: 700;
+      text-align: left;
+    }
+    .discardFilter {
+      font-size: 17px;
+      font-weight: 600;
+      color: rgb(237, 82, 82);
+      text-align: right;
+    }
+    .body {
+      background-color: white;
+      border-radius: 5px;
+      padding: 30px 20px;
+      margin-top: 15px;
+      .item {
+        .title {
+          font-size: 16px;
+          color: rgb(54, 58, 62);
+        }
+        .filter_field {
+          margin-top: 15px;
+        }
+      }
+      .divider {
+        border-bottom: 1px solid rgb(222, 222, 222);
+        margin: 30px 0 20px 0;
+      }
+      .addStep {
+        text-align: center;
+        button {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          margin: auto;
+          border: none;
+          outline: none;
+          background: none;
+          font-size: 16px;
+          color: rgb(81, 221, 221);
+          font-weight: 600;
+          cursor: pointer;
+          svg {
+            color: rgb(81, 221, 221);
+            font-size: 14px;
+            
+          }
+        }
+      }
+    }
+    .apply_button {
+      border: none;
+      outline: none;
+      background: rgb(255, 217, 0);
+      margin-top: 14px;
+      font-weight: 500;
+      padding: 8px 15px;
+      font-size: 13px;
+      color: black;
+      font-weight: 600;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+  }
+}
